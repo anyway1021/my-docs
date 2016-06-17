@@ -3,27 +3,12 @@
   	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
  	<title>{{site.title}} - {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
- 	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
 	<meta name="keywords" content="">
 	<meta name="author" content="">
-
-	<meta charset="utf-8">
+	
 	<meta name="viewport" content="initial-scale=1">
   	
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
-
-  	<!-- Baidu Analytics Tracking-->
-	<script>
-	var _hmt = _hmt || [];
-	(function() {
-	  var hm = document.createElement("script");
-	  hm.src = "//hm.baidu.com/hm.js?fedc55df2ea52777a679192e8f849ece";
-	  var s = document.getElementsByTagName("script")[0]; 
-	  s.parentNode.insertBefore(hm, s);
-	})();
-	</script>
-	
-	<!-- Google Analytics Tracking -->
 </head>
